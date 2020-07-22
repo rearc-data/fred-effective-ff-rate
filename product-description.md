@@ -1,21 +1,35 @@
-# 
+Effective Federal Funds Rate(US) | FRED
+=========================
 
-The source code outlining how this product gathers, transforms, revises and publishes its datasets is available at []().
+You can subscribe to the AWS Data Exchange product utilizing the automation featured in this repository by visiting [https://aws.amazon.com/marketplace/pp/prodview-hzavcl2zkf3ro](https://aws.amazon.com/marketplace/pp/prodview-hzavcl2zkf3ro). 
 
 ## Main Overview
 
+This release contains information on the effective federal funds rate. Banks with excess cash will loan money to other banks for the purpose of the latter to raise liqudity. The average rate of these types of transactions is known as the effective federal funds rate.
+
+The included data is provided by the Federal Reserve Bank of St. Louis' FRED (Federal Reserve Economic Data) platform, which contains information on over 700,000+ series related to historical economic data. If you are interested in learning more or want to explore other datasets maintained on FRED, visit the [FRED homepage](https://fred.stlouisfed.org/).
+
+
 #### Data Source
 
+This resource is presented in both the XLS and CSV formats. The included dataset contains the following columns:
+
+`date, ff`
+
+The `ff` column represents the weighted average rate which corresponds to the `date` column.
+
+
 ## More Information
-- Source:      
-- 
-- 
-- Frequency:
-- Formats:
+- Source: [Federal Reserve Economic Data (FRED)](https://fred.stlouisfed.org/series/FF)
+- [FRED | Federal Reserve Bank of St. Louis](https://fred.stlouisfed.org/)
+- [Federal Reserve Bank of St. Louis | Homepage](https://www.stlouisfed.org/)
+- [Terms of Use FAQ](https://fred.stlouisfed.org/legal/)
+- Frequency: Weekly
+- Formats: XLS, CSV
 
 ## Contact Details
-- If you find any issues with or have enhancement ideas for this product, open up a GitHub [issue]() and we will gladly take a look at it. Better yet, submit a pull request. Any contributions you make are greatly appreciated :heart:.
-- If you are looking for specific open datasets currently not available on ADX, please submit a request on our project board [here]().
+- If you find any issues with or have enhancement ideas for this product, open up a GitHub [issue](https://github.com/rearc-data/fred-unemployment-rate/issues) and we will gladly take a look at it. Better yet, submit a pull request. Any contributions you make are greatly appreciated :heart:.
+- If you are looking for specific open datasets currently not available on ADX, please submit a request on our project board [here](https://github.com/rearc-data/covid-datasets-aws-data-exchange/projects/1).
 - If you have questions about the source data, please contact .
 - If you have any other questions or feedback, send us an email at data@rearc.io.
 
