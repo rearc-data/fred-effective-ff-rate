@@ -1,7 +1,8 @@
 Effective Federal Funds Rate(US) | FRED
 =========================
 
-You can subscribe to the AWS Data Exchange product utilizing the automation featured in this repository by visiting [https://aws.amazon.com/marketplace/pp/prodview-hzavcl2zkf3ro](https://aws.amazon.com/marketplace/pp/prodview-hzavcl2zkf3ro). 
+The source code outlining how this product gathers, transforms, revises and publishes its datasets is available at [https://github.com/rearc-data/fred-effective-ff-rate](https://github.com/rearc-data/fred-effective-ff-rate).
+
 
 ## Main Overview
 
