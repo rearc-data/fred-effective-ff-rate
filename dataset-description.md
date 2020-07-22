@@ -1,0 +1,1 @@
+This release contains information on the effective federal funds rate. Banks with excess cash will loan money to other banks for the purpose of the latter to raise liqudity. The average rate of these types of transactions is known as the effective federal funds rate.
